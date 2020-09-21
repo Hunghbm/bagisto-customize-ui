@@ -1,0 +1,31 @@
+{
+    "name": "hunghbm/bagisto-customize-ui",
+    "description": "UI Customization package for bagisto",
+    "type": "library",
+    "keywords": ["ui", "ui customization", "bagisto ui customization"],
+    "homepage": "https://github.com/Hunghbm/bagisto-customize-ui",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HUNG HUYNH BA MANH",
+            "email": "huynhbamanhhungg@gmail.com",
+            "homepage": "https://github.com/Hunghbm",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hunghbm\\UI\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hunghbm\\UI\\Providers\\UIServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
+
